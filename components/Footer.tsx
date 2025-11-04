@@ -9,9 +9,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <Link href="/">
-                <Image src="/android-chrome-white-192x192.png" alt="Maisha at Law" width={40} height={40} />
+                <Image src="/android-chrome-white-192x192.png" alt="Maisha At Law" width={40} height={40} />
               </Link>
-              <span className="text-xl font-bold">Maisha at Law</span>
+              <span className="text-xl font-bold">Maisha At Law</span>
             </div>
             <p className="text-sm opacity-80">
               Providing exceptional legal services with integrity and dedication.
@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-accent-foreground/20 pt-8 text-center text-sm opacity-80">
-          <p>&copy; {new Date().getFullYear()} Maisha at Law. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Maisha At Law. All rights reserved.</p>
         </div>
       </div>
     </footer>

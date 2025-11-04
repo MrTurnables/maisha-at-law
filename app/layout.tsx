@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Maisha at Law | Expert Legal Counsel in Accra, Ghana",
-    template: "%s | Maisha at Law"
+    default: "Maisha At Law | Expert Legal Counsel in Accra, Ghana",
+    template: "%s | Maisha At Law"
   },
   description: "Leading law firm in Accra, Ghana providing comprehensive legal services in corporate law, family law, criminal defense, real estate, personal injury, and estate planning. 25+ years experience, 98% success rate.",
   keywords: [
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     "business lawyer Accra",
     "divorce attorney Ghana"
   ],
-  authors: [{ name: "Maisha at Law", url: "https://maishaatlaw.com" }],
-  creator: "Maisha at Law",
-  publisher: "Maisha at Law",
+  authors: [{ name: "Maisha At Law", url: "https://maishaatlaw.com" }],
+  creator: "Maisha At Law",
+  publisher: "Maisha At Law",
   robots: {
     index: true,
     follow: true,
@@ -65,21 +65,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GH",
     url: "https://maishaatlaw.com",
-    siteName: "Maisha at Law",
-    title: "Maisha at Law | Expert Legal Counsel in Accra, Ghana",
+    siteName: "Maisha At Law",
+    title: "Maisha At Law | Expert Legal Counsel in Accra, Ghana",
     description: "Leading law firm in Accra, Ghana providing comprehensive legal services. 25+ years experience, 98% success rate. Contact us for expert legal representation.",
     images: [
       {
         url: "/img1.jpg",
         width: 1200,
         height: 630,
-        alt: "Maisha at Law - Professional Legal Services in Ghana",
+        alt: "Maisha At Law - Professional Legal Services in Ghana",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maisha at Law | Expert Legal Counsel in Accra, Ghana",
+    title: "Maisha At Law | Expert Legal Counsel in Accra, Ghana",
     description: "Leading law firm in Accra, Ghana. 25+ years experience, 98% success rate. Corporate, family, criminal defense & more.",
     images: ["/img1.jpg"],
     creator: "@maishaatlaw",

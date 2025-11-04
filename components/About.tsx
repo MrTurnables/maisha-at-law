@@ -16,10 +16,10 @@ export default function About() {
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-              About Maisha at Law
+              About Maisha At Law
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Founded on principles of integrity, excellence, and unwavering commitment to justice, Maisha at Law has been serving individuals and businesses with distinction for over two decades.
+              Founded on principles of integrity, excellence, and unwavering commitment to justice, Maisha At Law has been serving individuals and businesses with distinction for over two decades.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
               Our team of experienced attorneys combines deep legal knowledge with a personalized approach to every case. We understand that legal matters can be overwhelming, which is why we&apos;re dedicated to providing clear guidance and effective representation every step of the way.

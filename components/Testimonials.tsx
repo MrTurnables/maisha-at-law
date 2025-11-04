@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader } from "@/components/ui/
 
 const testimonials = [
   {
-    quote: "Maisha at Law provided exceptional service during my business acquisition. Their attention to detail and expertise made the process smooth and successful.",
+    quote: "Maisha At Law provided exceptional service during my business acquisition. Their attention to detail and expertise made the process smooth and successful.",
     name: "Robert Thompson",
     case: "Business Acquisition"
   },
@@ -12,7 +12,7 @@ const testimonials = [
     case: "Personal Injury"
   },
   {
-    quote: "Going through a divorce was difficult, but having Maisha at Law by my side made all the difference. They were compassionate and effective.",
+    quote: "Going through a divorce was difficult, but having Maisha At Law by my side made all the difference. They were compassionate and effective.",
     name: "David Wilson",
     case: "Family Law"
   }
@@ -27,7 +27,7 @@ export default function Testimonials() {
             Client Testimonials
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don&apos;t just take our word for it - hear what our clients have to say about their experience with Maisha at Law.
+            Don&apos;t just take our word for it - hear what our clients have to say about their experience with Maisha At Law.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

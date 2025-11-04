@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Scale, Shield, FileText, Users } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
               Expert Legal Counsel You Can Trust
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8">
-              With decades of combined experience, Maisha at Law provides comprehensive legal services tailored to your unique needs. We fight for justice and protect your rights.
+              With decades of combined experience, Maisha At Law provides comprehensive legal services tailored to your unique needs. We fight for justice and protect your rights.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
@@ -23,13 +23,25 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          <div className="relative h-[400px] rounded-2xl overflow-hidden">
-            <Image 
-              src="/img1.jpg" 
-              alt="Law Firm Office" 
-              fill
-              className="object-cover"
-            />
+          <div className="relative h-[400px] flex items-center justify-center">
+            <div className="grid grid-cols-2 gap-8">
+              <div className="flex flex-col items-center justify-center p-8 bg-primary/10 rounded-2xl hover:bg-primary/20 transition-colors">
+                <Scale className="w-16 h-16 text-primary mb-4" />
+                <p className="text-sm font-semibold text-center">Justice</p>
+              </div>
+              <div className="flex flex-col items-center justify-center p-8 bg-primary/10 rounded-2xl hover:bg-primary/20 transition-colors">
+                <Shield className="w-16 h-16 text-primary mb-4" />
+                <p className="text-sm font-semibold text-center">Protection</p>
+              </div>
+              <div className="flex flex-col items-center justify-center p-8 bg-primary/10 rounded-2xl hover:bg-primary/20 transition-colors">
+                <FileText className="w-16 h-16 text-primary mb-4" />
+                <p className="text-sm font-semibold text-center">Documentation</p>
+              </div>
+              <div className="flex flex-col items-center justify-center p-8 bg-primary/10 rounded-2xl hover:bg-primary/20 transition-colors">
+                <Users className="w-16 h-16 text-primary mb-4" />
+                <p className="text-sm font-semibold text-center">Support</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ import Script from "next/script";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  "name": "Maisha at Law",
+  "name": "Maisha At Law",
   "description": "Leading law firm in Accra, Ghana providing comprehensive legal services in corporate law, family law, criminal defense, real estate, personal injury, and estate planning.",
   "url": "https://maishaatlaw.com",
   "logo": "https://maishaatlaw.com/android-chrome-512x512.png",

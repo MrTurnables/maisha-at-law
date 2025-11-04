@@ -47,7 +47,7 @@ export default function Contact() {
           <Card className="bg-background text-foreground">
             <CardHeader>
               <CardTitle>Schedule a Consultation</CardTitle>
-              <CardDescription>Fill out the form below and we'll get back to you within 24 hours.</CardDescription>
+              <CardDescription>Fill out the form below and we&apos;ll get back to you within 24 hours.</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="space-y-4">

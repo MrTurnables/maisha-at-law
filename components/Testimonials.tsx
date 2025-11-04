@@ -27,7 +27,7 @@ export default function Testimonials() {
             Client Testimonials
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it - hear what our clients have to say about their experience with Maisha at Law.
+            Don&apos;t just take our word for it - hear what our clients have to say about their experience with Maisha at Law.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -41,7 +41,7 @@ export default function Testimonials() {
                     </svg>
                   ))}
                 </div>
-                <CardDescription className="text-base italic">"{testimonial.quote}"</CardDescription>
+                <CardDescription className="text-base italic">&ldquo;{testimonial.quote}&rdquo;</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="font-semibold">{testimonial.name}</div>

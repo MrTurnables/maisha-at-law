@@ -22,7 +22,7 @@ export default function About() {
               Founded on principles of integrity, excellence, and unwavering commitment to justice, Maisha at Law has been serving individuals and businesses with distinction for over two decades.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
-              Our team of experienced attorneys combines deep legal knowledge with a personalized approach to every case. We understand that legal matters can be overwhelming, which is why we're dedicated to providing clear guidance and effective representation every step of the way.
+              Our team of experienced attorneys combines deep legal knowledge with a personalized approach to every case. We understand that legal matters can be overwhelming, which is why we&apos;re dedicated to providing clear guidance and effective representation every step of the way.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="flex items-start space-x-3">

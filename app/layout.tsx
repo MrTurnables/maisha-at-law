@@ -13,10 +13,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maisha at Law | Expert Legal Counsel You Can Trust",
-  description: "Experienced law firm providing comprehensive legal services in corporate law, family law, criminal defense, real estate, personal injury, and estate planning.",
-  keywords: "law firm, attorney, legal services, corporate law, family law, criminal defense",
-  authors: [{ name: "Maisha at Law" }],
+  title: {
+    default: "Maisha at Law | Expert Legal Counsel in Accra, Ghana",
+    template: "%s | Maisha at Law"
+  },
+  description: "Leading law firm in Accra, Ghana providing comprehensive legal services in corporate law, family law, criminal defense, real estate, personal injury, and estate planning. 25+ years experience, 98% success rate.",
+  keywords: [
+    "law firm Accra",
+    "lawyer Ghana",
+    "attorney Accra",
+    "legal services Ghana",
+    "corporate law Ghana",
+    "family law Accra",
+    "criminal defense Ghana",
+    "real estate lawyer Accra",
+    "personal injury attorney Ghana",
+    "estate planning lawyer",
+    "business lawyer Accra",
+    "divorce attorney Ghana"
+  ],
+  authors: [{ name: "Maisha at Law", url: "https://maishaatlaw.com" }],
+  creator: "Maisha at Law",
+  publisher: "Maisha at Law",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -33,10 +62,32 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Maisha at Law | Expert Legal Counsel You Can Trust",
-    description: "Experienced law firm providing comprehensive legal services in corporate law, family law, criminal defense, real estate, personal injury, and estate planning.",
     type: "website",
+    locale: "en_GH",
+    url: "https://maishaatlaw.com",
+    siteName: "Maisha at Law",
+    title: "Maisha at Law | Expert Legal Counsel in Accra, Ghana",
+    description: "Leading law firm in Accra, Ghana providing comprehensive legal services. 25+ years experience, 98% success rate. Contact us for expert legal representation.",
+    images: [
+      {
+        url: "/img1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Maisha at Law - Professional Legal Services in Ghana",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Maisha at Law | Expert Legal Counsel in Accra, Ghana",
+    description: "Leading law firm in Accra, Ghana. 25+ years experience, 98% success rate. Corporate, family, criminal defense & more.",
+    images: ["/img1.jpg"],
+    creator: "@maishaatlaw",
+  },
+  alternates: {
+    canonical: "https://maishaatlaw.com",
+  },
+  category: "legal services",
 };
 
 export default function RootLayout({
@@ -45,7 +96,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-GH">
+      <head>
+        <link rel="canonical" href="https://maishaatlaw.com" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

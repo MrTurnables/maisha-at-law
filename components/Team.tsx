@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import { Heart, Scale, Shield } from "lucide-react";
+import { Heart, Shield } from "lucide-react";
 
 const attorney = {
   name: "Taiba Mashoud",

@@ -14,7 +14,7 @@ export default function Navigation() {
   const navLinks = [
     { href: "#about", label: "About" },
     { href: "#practice-areas", label: "Practice Areas" },
-    { href: "#team", label: "Our Team" },
+    // { href: "#team", label: "Our Team" },
     { href: "#testimonials", label: "Testimonials" },
     { href: "#contact", label: "Contact" },
   ];

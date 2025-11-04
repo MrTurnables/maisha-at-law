@@ -4,7 +4,7 @@ import Stats from "@/components/Stats";
 import About from "@/components/About";
 import PracticeAreas from "@/components/PracticeAreas";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Team from "@/components/Team";
+// import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -18,7 +18,7 @@ const structuredData = {
   "url": "https://maishaatlaw.com",
   "logo": "https://maishaatlaw.com/android-chrome-512x512.png",
   "image": "https://maishaatlaw.com/img1.jpg",
-  "telephone": "+233209844941",
+  "telephone": "+233303983201",
   "email": "info@maishaatlaw.com",
   "address": {
     "@type": "PostalAddress",
@@ -129,7 +129,7 @@ export default function Home() {
         <About />
         <PracticeAreas />
         <WhyChooseUs />
-        <Team />
+        {/* <Team /> */}
         <Testimonials />
         <Contact />
         <Footer />

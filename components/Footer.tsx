@@ -22,7 +22,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link href="#about" className="hover:opacity-100 transition-opacity">About Us</Link></li>
               <li><Link href="#practice-areas" className="hover:opacity-100 transition-opacity">Practice Areas</Link></li>
-              <li><Link href="#team" className="hover:opacity-100 transition-opacity">Our Team</Link></li>
+              {/* <li><Link href="#team" className="hover:opacity-100 transition-opacity">Our Team</Link></li> */}
               <li><Link href="#contact" className="hover:opacity-100 transition-opacity">Contact</Link></li>
             </ul>
           </div>
@@ -38,7 +38,8 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm opacity-80">
-              <li>+233 20 984 4941</li>
+              <li>+233 303 983 201</li>
+              <li>+233 203 421 113</li>
               <li>info@maishaatlaw.com</li>
               <li>Mon-Fri: 9AM - 6PM</li>
             </ul>

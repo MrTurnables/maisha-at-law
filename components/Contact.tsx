@@ -21,7 +21,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Phone</div>
-                  <div className="opacity-90">+233 20 984 4941</div>
+                  <div className="opacity-90">+233 303 983 201</div>
+                  <div className="opacity-90">+233 203 421 113</div>
                 </div>
               </div>
               <div className="flex items-center space-x-4">

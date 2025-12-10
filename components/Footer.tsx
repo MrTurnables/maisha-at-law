@@ -40,7 +40,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm opacity-80">
               <li>+233 303 983 201</li>
               <li>+233 203 421 113</li>
-              <li>info@maishaatlaw.com</li>
+              <li>info@maisha-at-law.com</li>
               <li>Mon-Fri: 9AM - 6PM</li>
             </ul>
           </div>

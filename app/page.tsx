@@ -19,7 +19,7 @@ const structuredData = {
   "logo": "https://maishaatlaw.com/android-chrome-512x512.png",
   "image": "https://maishaatlaw.com/img1.jpg",
   "telephone": "+233303983201",
-  "email": "info@maishaatlaw.com",
+  "email": "info@maisha-at-law.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "123 Pigfarm",
